@@ -1,3 +1,4 @@
 Django==1.4
 django-redis-cache==0.9.5
 python-memcached==1.48
+redis>=4.3.6 # not directly required, pinned by Snyk to avoid a vulnerability
